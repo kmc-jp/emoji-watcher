@@ -51,8 +51,8 @@ WantedBy=default.target
 ```
 
 ```
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
-systemctl enable --now emoji-watcher.service
-systemctl status emoji-watcher.service
+sudo systemctl enable --now emoji-watcher.service
+sudo systemctl status emoji-watcher.service
 ```
